@@ -11,7 +11,7 @@ do
         p++;
     else if (num % 2 != 0 && num != 0)
         i++;   
-} while (num > 0);
+} while (num >= 0);
 
 Console.WriteLine("\n\nCantidad de pares: " + p);
 Console.WriteLine("Cantidad de impares: " + i);
